@@ -2,7 +2,7 @@ package ARK;
 
 import java.util.Arrays;
 
-public class _o2_valid_anagram {
+public class _02_valid_anagram {
     public static void main(String[] args) {
 /*
         Given two strings s and t, return true if t is an anagram of s, and false otherwise.
