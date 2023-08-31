@@ -125,13 +125,13 @@
 
 # Shared Responsibility Model for IAM
 
-| AWS | You | 
-| --- |-----|
-|• Infrastructure (globalnetwork security) | • Users, Groups, Roles, Policies management and monitoring|
-|• Configuration and vulnerability analysis | • Enable MFA on all accounts |
-|• Compliance validation | • Rotate all your keys often|
-| | • Use IAM tools to apply appropriate permissions|
-| | • Analyze access patterns & review permissions |
+| AWS                                        | You                                                        | 
+|--------------------------------------------|------------------------------------------------------------|
+| • Infrastructure (globalnetwork security)  | • Users, Groups, Roles, Policies management and monitoring |
+| • Configuration and vulnerability analysis | • Enable MFA on all accounts                               |
+| • Compliance validation                    | • Rotate all your keys often                               |
+|                                            | • Use IAM tools to apply appropriate permissions           |
+|                                            | • Analyze access patterns & review permissions             |
 
 > [!NOTE]
 > IAM Section – Summary
