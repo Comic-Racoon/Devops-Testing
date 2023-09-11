@@ -75,9 +75,24 @@
 
 ---
 # Shared Responsibility Model for EC2 Storage
-| AWS | You                        |
-| --- |----------------------------|
-| Infrastructure | Setting up backup / snapshot procedures |
-| Replication for data for EBS volumes & EFS drives | Setting up data encryption |
-| Replacing faulty hardware | Responsibility of any data on the drives |
-| Ensuring their employees cannot access your data | Understanding the risk of using EC2 Instance Store |
+| AWS                                               | You                                                |
+|---------------------------------------------------|----------------------------------------------------|
+| Infrastructure                                    | Setting up backup / snapshot procedures            |
+| Replication for data for EBS volumes & EFS drives | Setting up data encryption                         |
+| Replacing faulty hardware                         | Responsibility of any data on the drives           |
+| Ensuring their employees cannot access your data  | Understanding the risk of using EC2 Instance Store |
+
+# EC2 Instance Storage - Summary
+* EBS volumes:
+  * network drives attached to one EC2 instance at a time
+  * Mapped to an Availability Zones
+  * Can use EBS Snapshots for backups / transferring EBS volumes across AZ
+* AMI: create ready-to-use EC2 instances with our customizations
+* EC2 Image Builder : automatically build, test and distribute AMIs
+* EC2 Instance Store:
+  * High performance hardware disk attached to our EC2 instance
+  * Lost if our instance is stopped / terminated
+* EFS: network file system, can be attached to 100s of instances in a region
+* EFS-IA: cost-optimized storage class for infrequent accessed files
+* FSx for Windows: Network File System for Windows servers
+* FSx for Lustre: High Performance Computing Linux file system
