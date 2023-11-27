@@ -10,6 +10,7 @@
 * combinaiton sum     :
 * combination sum II  :
 * kth symbol in grammmer:
+* check array is sorted : 
 
 
 
