@@ -3,7 +3,7 @@
 * FIBO                : DONE https://leetcode.com/problems/fibonacci-number/
 * Factorial           : DONE
 * Find Power pow(x,n) :      https://leetcode.com/problems/powx-n/
-* Towers Of Hanoi     : 
+* Towers Of Hanoi     : in progress .. 
 * sum of digit        :
 * sum of natural no   :
 * generate paranthesis:
