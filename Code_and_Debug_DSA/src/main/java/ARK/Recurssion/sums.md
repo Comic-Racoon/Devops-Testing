@@ -3,10 +3,10 @@
 * FIBO                : DONE https://leetcode.com/problems/fibonacci-number/
 * Factorial           : DONE
 * Find Power pow(x,n) :      https://leetcode.com/problems/powx-n/
-* Towers Of Hanoi     : in progress .. 
-* sum of digit        :
-* sum of natural no   :
-* generate paranthesis:
+* Towers Of Hanoi     : done
+* sum of digit        : done     
+* sum of natural no   : done 
+* generate paranthesis: Dp BackTracking
 * combinaiton sum     :
 * combination sum II  :
 * kth symbol in grammmer:
