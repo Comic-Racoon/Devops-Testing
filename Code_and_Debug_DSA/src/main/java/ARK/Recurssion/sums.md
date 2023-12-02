@@ -1,18 +1,20 @@
 ### DONE : 
 
-* FIBO                : DONE https://leetcode.com/problems/fibonacci-number/
-* Factorial           : DONE
-* Find Power pow(x,n) :      https://leetcode.com/problems/powx-n/
-* Towers Of Hanoi     : done
-* sum of digit        : done     
-* sum of natural no   : done 
-* generate paranthesis: Dp BackTracking
+#### Recurssion 
+* FIBO                  : DONE https://leetcode.com/problems/fibonacci-number/
+* Factorial             : DONE
+* Towers Of Hanoi       : done
+* sum of digit          : done     
+* sum of natural no     : done 
+* check array is sorted : done
+* Find Power pow(x,n)   : done https://leetcode.com/problems/powx-n/
+* kth symbol in grammmer: done https://leetcode.com/problems/k-th-symbol-in-grammar/
+
+#### Back Tracking 
+
+* generate paranthesis:
 * combinaiton sum     :
 * combination sum II  :
-* kth symbol in grammmer:
-* check array is sorted : 
-
-
 
 
 ### TO DO:
