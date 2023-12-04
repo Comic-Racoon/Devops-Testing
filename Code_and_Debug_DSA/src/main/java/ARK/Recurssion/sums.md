@@ -12,6 +12,23 @@
 
 #### Back Tracking 
 
+* generating all binary string 
+* Generating K - ary String
+* N Queens problem 
+* The Knapsack Problem
+* Generalized String
+* permutation and combination 
+* subset generation
+
+* Generate all the strings of n bits
+* Generate all the strings of length n drawn from 0... k – 1
+* Finding the length of connected cells of 1s (regions) in an matrix of Os and1s:
+* Solve the recurrence T(n) = 2T(n – 1) + 2n.
+
+* subsets 
+* subsets II
+* permutation
+* Palindrome Partitioning
 * generate paranthesis:
 * combinaiton sum     :
 * combination sum II  :
