@@ -72,3 +72,5 @@ High Availability Setup:
 Initial Cluster Option:
     When configuring etcd for multiple instances, use the "initial cluster" option.
     Specify different instances of the etcd service.
+
+### Kube Api-Server: 
