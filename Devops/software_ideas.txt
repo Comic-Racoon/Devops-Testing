@@ -1,0 +1,2 @@
+1) app that can trak job for given list of companies, it can mail or just can be use as quck look up for your intrested companies  
+2) 
