@@ -185,3 +185,87 @@ The kube-apiserver is a critical component in a Kubernetes cluster, acting as th
         Taints and Tolerations: Mechanisms for node customization.
         Node Selectors: Defining node preferences.
         Affinity Rules: Specifying pod-to-node relationships.
+
+### Kubelet (worker ship captain):
+
+    Kubelet in Kubernetes:
+        The kubelet is likened to the captain on a ship, leading all activities on the node.
+        Responsible for handling paperwork to join the cluster and is the primary point of contact with the master node.
+
+    Role of Kubelet:
+        Loads and unloads containers on the node based on instructions received from the master node's scheduler.
+        Acts as the intermediary between the master node and the container runtime engine.
+
+    Registration with Cluster:
+        On the Kubernetes worker node, the kubelet registers the node with the Kubernetes cluster.
+
+    Container Deployment Process:
+        When instructed to load a container or pod, the kubelet requests the container runtime engine (e.g., Docker).
+        The container runtime engine pulls the required image and runs an instance of the container.
+
+    Continuous Monitoring:
+        The kubelet continually monitors the state of the pod and the containers within it.
+
+    Reporting to Kube API Server:
+        Sends regular status reports to the kube API server, ensuring timely updates on the state of the ship (node) and its containers.
+
+    Key Responsibilities:
+        Container Handling: Loads and unloads containers as per scheduler instructions.
+        Communication: Acts as a communication bridge between the master node and the container runtime engine.
+        Image Management: Requests container runtime engine to pull required images.
+        Monitoring: Monitors the state of pods and containers.
+        Reporting: Regularly reports the status of the ship and its containers to the kube API server.
+
+    Essential Node Component:
+        The kubelet is an essential component on a Kubernetes worker node, ensuring proper execution and management of containers as directed by the cluster master.
+
+    Integration with Container Runtime Engine:
+        Collaborates with the chosen container runtime engine (e.g., Docker) to fulfill container deployment instructions.
+
+    Continuous Feedback Loop:
+        Creates a continuous feedback loop by providing real-time updates to the master node about the status of containers and the node itself.
+
+### kube proxy :
+
+    Pod Networking in Kubernetes:
+        Every pod within a Kubernetes cluster can communicate with every other pod.
+        This is achieved through deploying a pod networking solution that creates an internal virtual network spanning across all nodes.
+
+    Web and Database Applications:
+        Example scenario with a web application on the first node and a database application on the second node.
+        Web app reaching the database using the pod's IP, but this is not a reliable approach.
+        we use k8s services for better communication between applications.
+        Services provide a reliable way for the web application to access the database.
+
+    Service Access through Name:
+        Web app can now access the database using the service name, e.g., DB.
+        Service is assigned an IP address.
+
+    Service Limitations:
+        Services cannot join the pod network as they are not containers.
+        They are virtual components existing only in Kubernetes memory.
+
+    kube-proxy's Role:
+        kube-proxy is a process running on each node in the Kubernetes cluster.
+        Its primary role is to handle service exposure and communication.
+
+    kube-proxy Functionality:
+        Monitors for new services.
+        Creates appropriate rules on each node to forward traffic to the services.
+        Utilizes iptables rules for traffic forwarding.
+
+    Service Accessibility Across Cluster:
+        Services need to be accessible across the entire cluster, not confined to a specific node.
+        kube-proxy ensures this accessibility by configuring iptables rules on each node.
+
+    Example iptables Rule:
+        kube-proxy creates an iptables rule on each node.
+        Forwards traffic heading to the service's IP (e.g., 10.96.0.12) to the actual pod's IP (e.g., 10.32.0.15).
+
+    kube-proxy Configuration:
+        Configuration involves dynamically updating iptables rules based on service creation and changes.
+        Ensures seamless and reliable communication between pods through services.
+
+    Significance of kube-proxy:
+        Essential for enabling service-based communication within a Kubernetes cluster.
+        Facilitates transparent and efficient routing of traffic to backend pods through dynamically managed iptables rules.
