@@ -1,0 +1,39 @@
+    Resource Management in Kubernetes:
+        Nodes have CPU and memory resources.
+        Pods require resources to run.
+        Kubernetes scheduler decides pod placement based on resource availability.
+
+    Resource Requests and Limits:
+        Resource requests: Minimum resources required by a pod.
+        Limits: Maximum resources a pod can consume.
+
+    Specifying Resource Requirements:
+        Add resources section in pod-definition file.
+        Specify requests and limits for CPU and memory.
+
+    CPU and Memory Resource Units:
+        CPU: Expressed in vCPUs, cores, or hyperthreads.
+        Memory: Expressed in MiB, GiB, or MB, GB.
+
+    Throttling and Out of Memory Events:
+        CPU: Throttled if exceeds limit.
+        Memory: Pod terminated with OOM error if exceeds limit.
+
+    Default Resource Configuration:
+        Kubernetes default: No resource requests or limits.
+        Pods can consume available resources on the node.
+
+    CPU Resource Requests and Limits:
+        Different scenarios: No request or limit, only limit, both set, only request.
+        Setting requests without limits allows flexible resource usage.
+
+----
+
+    Limit Ranges: (is a crd kind) 
+        Define default resource values for pods at the namespace level.
+        Specifies default, max, and min values for CPU and memory resources.
+
+    Resource Quotas:(is a crd kind)
+        Namespace-level objects to set hard limits on resource consumption.
+        Ensure total resource usage across all pods in a namespace stays within defined limits.
+
