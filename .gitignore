@@ -69,3 +69,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+##terraform files
+.terraform*
