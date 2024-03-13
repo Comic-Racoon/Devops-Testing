@@ -36,6 +36,7 @@
 ```
 {
    "Version":"2012-10-17",
+   "sid": 1
    "Statement":[
       {
          "Effect":"Allow",
