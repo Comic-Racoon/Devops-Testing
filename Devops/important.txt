@@ -1,0 +1,99 @@
+Draw: https://excalidraw.com/
+
+https://medium.com/@roelljr/ultimate-python-cheat-sheet-practical-python-for-everyday-tasks-c267c1394ee8
+Blogs Master:
+
+* https://medium.com/devops-mojo
+* https://www.designgurus.io/course-play/grokking-system-design-fundamentals/doc/641db3215a17d4ea022c86b9
+* https://blog.bytebytego.com/archive?sort=new
+* https://techiescamp.com/
+* https://github.com/100daysofdevops/100daysofdevops
+* https://blog.palark.com/category/sre/
+* https://blogs.letusdevops.com/
+* https://yuminlee2.medium.com/
+* https://medium.com/@bijit211987/top-100-kubernetes-interview-questions-and-answer-ed2a8342d20c
+
+
+Prep
+
+* https://github.com/chowmean/InterviewPreperationForDevOpsAndSRE/blob/main/pdf/Interview%20preparation%20and%20questions%20Devops.pdf
+* https://github.com/chowmean/InterviewPreperationForDevOpsAndSRE
+* https://medium.com/@sushantkapare1717
+
+
+Kubernetes
+
+https://kubebyexample.com/learning-paths/operator-framework/operator-sdk-go/representing-application-state-custom-api
+K8s Crds: 
+https://trstringer.com/extending-k8s-custom-controllers/
+
+k8s Arch:
+https://medium.com/devops-mojo/kubernetes-architecture-overview-introduction-to-k8s-architecture-and-understanding-k8s-cluster-components-90e11eb34ccd
+https://aws.plainenglish.io/kubectl-get-kubernetes-o-architecture-6d4bd97dcaaf
+
+K8s Networking:
+https://llorllale.github.io/posts/k8s-cluster-network/
+https://www.stackrox.io/blog/kubernetes-networking-demystified/
+https://learnk8s.io/kubernetes-network-packets
+
+K8’s Flow:
+https://itnext.io/what-happens-when-you-create-a-pod-in-kubernetes-6b789b6db8a8
+https://itnext.io/kubernetes-is-hard-why-eks-makes-it-easier-for-network-and-security-architects-ea6d8b2ca965
+
+K8s Resources:
+
+* Graceful Shutdown: https://learnk8s.io/graceful-shutdown
+* https://yuminlee2.medium.com/
+* AutoScaling: 
+    * https://itnext.io/autoscaling-ingress-controllers-in-kubernetes-c64b47088485,
+    * Offical Keda Doc
+    *  keda_event_driven
+* OCI, CRI, CNI, CSI, SMI, CPI
+
+
+
+Author Ref:
+https://twitter.com/danielepolencic/status/1298543151901155330
+https://medium.com/@danielepolencic
+
+Linux
+
+Basic Cmds
+
+* https://keentolearn.medium.com/linux-cheatsheet-for-devops-e4f4cd4631aa
+* https://devopscube.com/linux-shell-scripting-for-devops/
+
+
+Terraform
+
+* Basic Details
+* EKS Creations
+* https://k21academy.com/terraform-iac/terraform-cheat-sheet/
+* https://faun.pub/the-ultimate-guide-to-advanced-terraform-techniques-for-devops-b202b6845170
+* https://medium.com/geekculture/terraform-interview-questions-you-must-be-able-to-answer-questions-807fa7656ffb
+* https://medium.com/illuminations-mirror/basic-terraform-provider-debugging-c20532268c3b
+
+
+ArgoCD
+
+* https://medium.com/nerd-for-tech/deploying-applications-in-kubernetes-using-argo-cd-ab004a8cdb5e
+
+
+Alerting
+
+https://alertops.com/mttd-vs-mttf-vs-mtbf-vs-mttr/
+
+SRE
+
+* https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli#:~:text=SLI%3A%20Service%20Level%20Indicator&text=An%20SLI%20(service%20level%20indicator,actual%20measurement%20of%20your%20uptime.
+* https://cloud.google.com/blog/products/management-tools/practical-guide-to-setting-slos
+* Instance’s Bench Mark
+
+
+
+Additional Dump
+
+* https://blog.bytebytego.com/p/key-steps-in-the-database-selection
+* https://bytebytego.com/courses/system-design-interview/scale-from-zero-to-millions-of-users
+* https://www.linkedin.com/pulse/story-atlassians-13-day-outage-stanislav-kozlovski%3FtrackingId=qPJ0sE2P%252Bo5H5Wy6Gdd3rw%253D%253D/?trackingId=qPJ0sE2P%2Bo5H5Wy6Gdd3rw%3D%3D
+
