@@ -19,7 +19,7 @@ These permissions can be applied to three different classes:
 To view permissions, use the command:
 ```bash
 ls -lha
-
+```
 The output displays permissions in a symbolic notation showing the access level for the owner, group, and others.
 
 **Key chmod Commands**
