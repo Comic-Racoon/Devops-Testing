@@ -1,12 +1,8 @@
-# todo :
-- check this and add relevent time and data
-
-
 * devops sre *
-https://www.google.com/search?q=devops+sre&sca_esv=10710e6d746a2a0b&sca_upv=1&ei=RJo[…]l;jobs&sa=X&ved=2ahUKEwimqob1semFAxUFEGIAHQZBClkQkd0GegQIJhAB
-
-* devops *
-https://www.google.com/search?q=devops&sca_esv=10710e6d746a2a0b&sca_upv=1&ei=RJowZof[…]l;jobs&sa=X&ved=2ahUKEwimqob1semFAxUFEGIAHQZBClkQkd0GegQIJhAB
+https://www.google.com/search?q=devops+sre&sca_esv=10710e6d746a2a0b&sca_upv=1&ei=RJowZofhBKyz5NoP1smcuAI&uact=5&oq=amazon+devops+and+sre+jobs&gs_lp=Egxnd3Mtd2l6LXNlcnAiGmFtYXpvbiBkZXZvcHMgYW5kIHNyZSBqb2JzMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBUjnC1AmWIQJcAF4AZABAJgB7QKgAdYNqgEDMy01uAEDyAEA-AEBmAIGoAKADsICChAAGLADGNYEGEfCAgYQABgWGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIHECEYoAEYCpgDAIgGAZAGCJIHBTEuMy01oAeVJw&sclient=gws-wiz-serp&ibp=htl;jobs&sa=X&ved=2ahUKEwimqob1semFAxUFEGIAHQZBClkQkd0GegQIJhAB#fpstate=tldetail&htivrt=jobs&htichips=job_family_1:devops%20engineer,job_family_1:reliability%20engineer,job_family_1:cloud%20engineer,date_posted:3days&htischips=job_family_1;devops%20engineer;reliability%20engineer;cloud%20engineer,date_posted;3days&htidocid=d9mmeEhNnJ0cyizGAAAAAA%3D%3D
 
 * SRE *
-https://www.google.com/search?q=SRE&sca_esv=10710e6d746a2a0b&sca_upv=1&ei=RJowZofhBK[…]l;jobs&sa=X&ved=2ahUKEwimqob1semFAxUFEGIAHQZBClkQkd0GegQIJhAB
+https://www.google.com/search?q=SRE&sca_esv=10710e6d746a2a0b&sca_upv=1&ei=RJowZofhBKyz5NoP1smcuAI&uact=5&oq=amazon+devops+and+sre+jobs&gs_lp=Egxnd3Mtd2l6LXNlcnAiGmFtYXpvbiBkZXZvcHMgYW5kIHNyZSBqb2JzMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBUjnC1AmWIQJcAF4AZABAJgB7QKgAdYNqgEDMy01uAEDyAEA-AEBmAIGoAKADsICChAAGLADGNYEGEfCAgYQABgWGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIHECEYoAEYCpgDAIgGAZAGCJIHBTEuMy01oAeVJw&sclient=gws-wiz-serp&ibp=htl;jobs&sa=X&ved=2ahUKEwimqob1semFAxUFEGIAHQZBClkQkd0GegQIJhAB#fpstate=tldetail&htivrt=jobs&htichips=job_family_1:reliability%20engineer,job_family_1:cloud%20engineer,job_family_1:devops%20engineer,job_family_1:infrastructure%20engineer,job_family_1:infrastructure,date_posted:month,employment_type:FULLTIME&htischips=job_family_1;reliability%20engineer;cloud%20engineer;devops%20engineer;infrastructure%20engineer;infrastructure,date_posted;month,employment_type;FULLTIME&htidocid=M-7hn1gP2FznuttxAAAAAA%3D%3D
+
+* devops *
+https://www.google.com/search?q=devops&sca_esv=10710e6d746a2a0b&sca_upv=1&ei=RJowZofhBKyz5NoP1smcuAI&uact=5&oq=amazon+devops+and+sre+jobs&gs_lp=Egxnd3Mtd2l6LXNlcnAiGmFtYXpvbiBkZXZvcHMgYW5kIHNyZSBqb2JzMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBUjnC1AmWIQJcAF4AZABAJgB7QKgAdYNqgEDMy01uAEDyAEA-AEBmAIGoAKADsICChAAGLADGNYEGEfCAgYQABgWGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIHECEYoAEYCpgDAIgGAZAGCJIHBTEuMy01oAeVJw&sclient=gws-wiz-serp&ibp=htl;jobs&sa=X&ved=2ahUKEwimqob1semFAxUFEGIAHQZBClkQkd0GegQIJhAB#fpstate=tldetail&htivrt=jobs&htichips=job_family_1:devops%20engineer,job_family_1:engineer,job_family_1:software%20engineer,job_family_1:senior%20engineer,job_family_1:cloud%20engineer,job_family_1:devops%20consultant,job_family_1:reliability%20engineer,date_posted:3days&htischips=job_family_1;devops%20engineer;engineer;software%20engineer;senior%20engineer;cloud%20engineer;devops%20consultant;reliability%20engineer,date_posted;3days&htilrad=100.0&htidocid=bNNw5iD6aDwEYNg9AAAAAA%3D%3D
