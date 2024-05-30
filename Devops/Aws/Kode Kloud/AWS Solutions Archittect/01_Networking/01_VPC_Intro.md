@@ -91,7 +91,7 @@ Virtual Private Cloud (VPC) is a secure, isolated network segment within AWS.
 
 ---
 
-![Default_VPC_Configuration](../Images/Default_VPC_Config.png)
+![Default_VPC_Configuration](../../Images/Default_VPC_Config.png)
 
 ---
 
