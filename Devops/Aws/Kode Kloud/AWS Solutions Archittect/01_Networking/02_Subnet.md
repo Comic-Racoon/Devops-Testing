@@ -83,7 +83,7 @@
 - Public subnets are essential for resources needing internet access.
 
 ---
-![subnet](../Images/Subnet.png)
+![subnet](../../Images/Subnet.png)
 ---
 ### Questions 
 
